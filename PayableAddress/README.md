@@ -5,6 +5,6 @@
 
 # How can I define a payable address?
 
-`address payable [public|private|internal] wallet`
+`address payable [public|private|internal] wallet;`
 
 You can find an example in this folder
