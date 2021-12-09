@@ -7,7 +7,7 @@ contract Modifier {
     address public administrator;
     uint256 public balance;
 
-    modifier checkConditionFirst() {
+    modifier checkConditionFirst() { // usually called onlyAdmin or onlyOwner
         require(msg.sender == administrator, "You're not administrator");
         _;
     }
